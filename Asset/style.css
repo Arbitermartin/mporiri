@@ -270,6 +270,7 @@ section{
     cursor: pointer;
 }
 .foot{
+    margin-top: 1px;
     display: grid;
     justify-content: center;
     align-items: end;
@@ -289,7 +290,7 @@ footer .container{
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
-    gap: 30px;
+    gap: 20px;
 }
 footer .container .about-us h2{
     position: relative;
@@ -429,7 +430,7 @@ footer .container .contact-us .info li a{
         filter: invert(1);
     } */
      section{
-        padding: 20px;
+        padding: 10px;
      }
      .banner .content h2{
         font-size: 3em;
