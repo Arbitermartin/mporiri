@@ -269,6 +269,117 @@ section{
     border: none;
     cursor: pointer;
 }
+.foot{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    min-height: 100vh;
+    background: #e8e8e8;
+    padding: 50px;
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #fff;
+}
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+footer .container .about-us h2{
+    position: relative;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer .container .about-us p{
+    color: #555;
+}
+footer .container .social{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+}
+footer .container .social li{
+    list-style: none;
+}
+footer .container .social li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #333;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+footer .container .social li a i{
+    color: #fff;
+    font-size: 20px;
+}
+footer .container .support{
+    position: relative;
+
+}
+footer .container .support ul li{
+    list-style: none;
+}
+footer .container .support ul li a{
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+footer .container .contact-us .info{
+    position: relative;
+}
+footer .container .contact-us .info li{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 16px;
+} 
+footer .container .contact-us .info li span{
+    color: #555;
+    font-size: 20px;
+}
+footer .container .contact-us .info li a{
+    color: #555;
+    text-decoration: none;
+}
+.btn-1{
+    padding: 2rem;
+
+}
+.btn-2{
+    width: 150px;
+    height: 60px;
+    border: none;
+    background: #555;
+    border-radius: 1em;
+    
+}
+.btn-2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-2:hover{
+    background: #ff0157;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.copytext{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 100px 30px;
+    text-align: center;
+    color: #555;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
 @media(max-width:991px){
     header,
     header.sticky{
@@ -344,5 +455,24 @@ section{
      .menu .content .box .imgbx{
         height: 260px;
      }
-
+     footer{
+        padding: 40px;
+     }
+  footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 20px;
+  }
+  .copytext{
+    padding: 20px 40px 30px;
+  }
+}
+@media (max-width:768px){
+    footer .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+        gap: 20px;
+      }  
 }
