@@ -270,14 +270,12 @@ section{
     border: none;
     cursor: pointer;
 }
+/* our services */
 .flexbox{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-     
-    
-    
+    align-items: center;   
 }
 .flexbox-items{
     display: flex;
@@ -303,11 +301,36 @@ section{
    margin-top: 2rem;
    padding: 1rem;
 }
-h3{
+h3 {
     margin-top: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
-/* team style */
+p{
+    margin-top: 1.7rem;
+    text-align: center;
+}
+.btn-3{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: tomato;
+
+}
+.btn-3 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.btn-3:hover{
+    background: #555;
+    transition: 0.5s;
+}
+/* end of our services */
+
+/* team style  start*/
 .team .member{
     position: relative;
     padding: 30px;
