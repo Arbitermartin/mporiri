@@ -224,7 +224,7 @@ section{
     color: #111;
 }
 .contact{
-    background: url(/Images/MPOR3858.jpg);
+    background: url("../Images/MPOR3858.jpg");
     background-size: cover;
 }
 .contactform{
