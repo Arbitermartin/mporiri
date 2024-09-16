@@ -418,7 +418,7 @@ h3 {
     display: grid;
     justify-content: center;
     align-items: end;
-    /* min-height: 30vh; */
+    min-height: 30vh;
     background: #e8e8e8;
     padding: 20px;
 
