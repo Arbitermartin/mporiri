@@ -666,6 +666,13 @@ footer .container .contact-us .info li a{
  } 
  .blog-1{
     display: block;
+    width: 100%;
+ }
+ .blog-content{
+    width: 100%;
+ }
+ .lets{
+    width: 100%;
  }
 }
 @media (max-width:768px){
