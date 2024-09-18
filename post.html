@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Asset/style.css">
+    <title>MPORIPORI</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo">MPORIPORI <span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About us</a></li>
+         <li><a href="contact.html">Contact us</a></li>
+         <li><a href="team.html">our team</a></li>
+         <li><a href="services.html">service</a></li>
+         <li><a href="blog.html">blog</a></li>
+         <li><a href="#">staff login</a></li>
+         <li class="nav-profile">
+            <div class="avatar">
+                <img src="/Images/download.png">
+            </div>
+                <ul>
+                    <li> <a href="dashbord.html">dashbord</a></li>
+                    <li> <a href="logout.html">logout</a></li>
+                </ul>
+         </li>
+        </ul>
+    </header>
+    <section class="singlepost">
+        <div class="container singlepost-container">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, error.
+            </h2>
+            <div class="post-author">
+                <div class="post-author-avatar">
+                    <img src="Images/avatar2.jpg" alt="">
+                </div>
+                <div class="post-author-info">
+                    <h5>by:mporipori</h5>
+                    <small>sept 23, 2024 12:00</small>
+                </div>
+            </div>
+            <div class="singlepost-thumbnail">
+                <img src="Images/kylema.jpg" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad optio non laudantium repellat, placeat delectus quaerat voluptates omnis aliquam accusantium veniam enim id, quam libero quidem sint! Minima debitis impedit est? Nisi, tempora. Architecto autem, minima hic voluptas suscipit natus?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad optio non laudantium repellat, placeat delectus quaerat voluptates omnis aliquam accusantium veniam enim id, quam libero quidem sint! Minima debitis impedit est? Nisi, tempora. Architecto autem, minima hic voluptas suscipit natus?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad optio non laudantium repellat, placeat delectus quaerat voluptates omnis aliquam accusantium veniam enim id, quam libero quidem sint! Minima debitis impedit est? Nisi, tempora. Architecto autem, minima hic voluptas suscipit natus?
+            </p>
+        </div>
+    </section>
+
+<section class="foot" id="foot">
+    <footer>
+   <div class="container">
+    <div class="about-us">
+        <h2>ABOUT US</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora debitis laudantium. Enim perspiciatis ducimus dignissimos corporis amet quibusdam optio.</p>
+        <ul class="social">
+        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+        </ul>
+    </div>
+    <div class="support">
+      <h2>support</h2>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <div class="support">
+        <h2>services</h2><ul>
+            <li><a href="#">photographer</a></li>
+            <li><a href="#">Video shooting</a></li>
+            <li><a href="#">phychology</a></li>
+            <li><a href="#">web develoment</a></li>
+        </ul>
+       
+    </div>
+    <div class="contact-us">
+        <h2>contact us</h2>
+        <ul class="info">
+            <li>
+                <span><i class="bi bi-telephone"></i></i></span><p><a href="tel:+255684640139">+255684640139</a></p>   
+            </li>
+            <li>
+                <span><i class="bi bi-envelope"></i></span><p><a href="mailto:officialpremier05@gmail.com">officialpremier05@gmail.com</a></p>   
+            </li>
+       
+        </ul>
+    </div>
+    <!-- changes -->
+    <!-- <div class="btn-1">
+        <h2>Staff login</h2>
+        <p>This feature is Available only for Staff or Administrator</p>
+        <button class="btn-2"><a href="#">staff login</a></button>
+    </div> -->
+   </div>
+   <div class="copytext">
+    <p>&copy; 2024 mporipori company .All Right Reserved</p>
+</div>
+</footer>
+</section>
+<script type="text/javascript">
+    window.addEventListener('scroll',function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky",window.scrollY > 0);
+
+    });
+ function toggleMenu(){ 
+    const menuToggle = document.querySelector('.menuToggle');
+    const navigation = document.querySelector('.navigation');
+    menuToggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+ }
+</script>
+</body>
+</html>
